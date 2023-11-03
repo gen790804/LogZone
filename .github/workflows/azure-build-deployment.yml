@@ -8,7 +8,7 @@ on:
 env:
   RESOURCE_GROUP_NAME: logZoneGroup
   CONTAINER_APPS_NAME: log-zone-app 
-  DOCKER_FILE_PATH: ./src/WebApplication1/Dockerfile
+  DOCKER_FILE_PATH: ./WebApplication1/Dockerfile
 
 jobs:
   deploy:
